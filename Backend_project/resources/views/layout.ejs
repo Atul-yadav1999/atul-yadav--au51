@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+     <title>Pizza Order</title>   
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../public/css/app.css" type="text/css">
+    
+</head>
+<body style="background-color: antiquewhite;">
+    <nav class="container mx-auto flex items-center justify-between" style="padding: 10px;background-color: brown; border-radius: 10px;">
+        <div>
+            <img src="../../public/img/pizza-logo.png" alt="image">
+        </div>
+        <div style="text-align: right; ">
+            <ul class="flex items-center class="ml-6"">
+            <li class="ml-6"><a class="ty" href="/">Home</a></li>
+            <li class="ml-6"><a class="ty" href="3">Offers</a></li>
+
+            
+            <li class="ml-6"><a class="ty" href="/resister">Resister</a></li>
+            <li class="ml-6"><a class="ty" href="/login">Login</a></li>
+            <li class="ml-6"><a class="ty" href="cart"><img src="../../public/img/basket.png" alt="Cart"></a></li>
+<style>
+    .ml-6:hover{color: orangered;}
+    .ml-6{color: aqua;}
+</style>
+        </ul>
+        </div>
+    </nav>
+
+ <%- body %>
+    <Script src="../js/app.js"></Script>
+</body>
+
+</html>
